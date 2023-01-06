@@ -12,13 +12,13 @@
 
 ## Install packages
 
-### webpack
+### Webpack
 ```console
   $ npm install webpack   --save-dev / -D
   $ npm install webpack-cli   --save-dev / -D 
   $ npm install webpack-dev-server   --save-dev / -D
 ``` 
-### babel
+### Babel
 ```console
   $ npm i -D @babel/core  
   $ npm i -D @babel/preset-env  	
