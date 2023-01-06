@@ -1,4 +1,4 @@
-# netflix clone using webpack
+# netflix clone using Webpack & Babel
 ***
 
 ##  Budle package tool
