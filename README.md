@@ -1,5 +1,5 @@
 # netflix clone using webpack
-
+***
 
 ##  budle package tool
 * webpack
@@ -11,7 +11,7 @@
 * tailwindcss
 
 ## Install packages
-***
+
 ### webpack
 ```console
   $ npm install webpack   --save-dev / -D
