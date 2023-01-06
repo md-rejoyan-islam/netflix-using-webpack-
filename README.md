@@ -2,7 +2,6 @@
 <hr>
 
 ### tools
-<hr>
 * webpack
 * babel
 * tailwindcss
