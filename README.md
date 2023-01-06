@@ -1,7 +1,7 @@
 # netflix clone using webpack
 ***
 
-##  budle package tool
+##  Budle package tool
 * webpack
 
 ### Javascript compiler tool
