@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body > 
+    <header>
+      <!-- header section -->
+      <section class="w-full absolute top-0">
+        <div class="md:px-16 px-4 pt-6 grid grid-cols-2">
+          <a href="/">
+            <svg
+            viewBox="0 0 111 30"
+            data-uia="netflix-logo"
+            class="xl:w-44 md:w-32 w-24"
+            aria-hidden="true"
+            focusable="false"
+            fill="#e50914"
+          >
+            <g id="netflix-logo">
+              <path
+                d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"
+                id="Fill-14"
+              ></path>
+            </g>
+          </svg>
+          </a>
+          
+          <a href="./signUp.html"
+            class="bg-[#e50914] text-white sm:px-4 px-2 rounded-md font-semibold items-center grid sm:h-9 w-fit justify-self-end sm:text-md lg:text-lg text-sm h-7"
+          >
+            Sign In
+        </a>
+        </div>
+      </section>
+
+      
+    </header>
+    <main>
+        <!-- subscription section -->
+        <section class="h-screen text-white grid items-center text-center">
+        <img
+          id="netflix"
+          alt=""
+          class="absolute z-[-10] brightness-[.35] h-screen w-fit"
+        />
+        <section class="h-screen grid items-center">
+          <div class="md:w-[800px] mx-auto px-10 xl:px-0 py-36">
+            <p
+              class="xl:text-[64px] sm:text-[50px] text-2xl text-white xl:leading-[70px] font-bold sm:leading-[60px] sm:py-0 py-4"
+            >
+              Unlimited movies, TV shows, and more.
+            </p>
+            <p class="sm:text-[26px] text-xl sm:my-4">
+              Watch anywhere. Cancel anytime.
+            </p>
+            <p class="sm:text-[20px] text-lg my-4 lg:px-0 px-5">
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+            <form action="" class="px-5">
+              <div class="grid md:grid-cols-7 items-center md:gap-0 gap-4">
+                <input
+                  type="text"
+                  placeholder="Email address "
+                  class="md:col-span-5 xl:py-6 rounded-md md:rounded-none p-4 xl:text-xl text-lg"
+                />
+                <button
+                  class="bg-[#e50914] md:w-full items-center justify-center md:col-span-2 gap-2 flex xl:text-3xl text-2xl border border-black py-3 rounded-md md:rounded-none px-3 md:p-4 xl:py-5 text-center mx-auto"
+                >
+                  Get Started
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    version="1.1"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 492.004 492.004"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    fill="#ffffff"
+                    class="md:w-6 w-4"
+                  >
+                    <g>
+                      <g>
+                        <g>
+                          <path
+                            d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+			c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+			c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+			c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
+                            data-original="#000000"
+                            class=""
+                          ></path>
+                        </g>
+                      </g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </section>
+      <div>
+        <p class="h-2 w-full bg-[#222222]"></p>
+      </div>
+ <!-- tv section -->
+      <section class="bg-[#000000]">
+        <div
+          class="text-white grid lg:grid-cols-2 items-center xl:w-3/4 py-[30px] mx-auto xl:px-0 md:px-20 px-4 lg:text-left text-center"
+        >
+          <div class="lg:py-0 pt-3">
+            <p class="lg:text-[50px] sm:text-[40px] text-[26px] font-bold my-1">
+              Enjoy on your TV.
+            </p>
+            <p class="lg:text-[26px]  lg:my-5 text-[18px]">
+              Watch on Smart TVs, Playstation, Xbox, ChromeCast, Apple TV,
+              Blu-ray players, and more.
+            </p>
+          </div>
+          <div
+            class="relative xl:w-[576px] lg:w-[540px] md:w-[576px] sm:w-[500px] mx-auto"
+          >
+            <img
+              id="tv"
+             
+              alt=""
+              class="relative z-10 xl:w-[576px] lg:w-[540px] md:w-[576px] sm:w-[500px] w-[380px]"
+            />
+            <div
+              class="top-[18%] my-auto absolute overflow-hidden box-border sm:w-[425px] w-[290px] left-[13%]"
+            >
+              <video
+              id="video"
+                autoplay
+                loop
+              ></video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div>
+        <p class="h-2 w-full bg-[#222222]"></p>
+      </div>
+      <!-- download section -->
+      <section class="bg-[#000000] pb-10">
+        <div
+          class="text-white grid lg:grid-cols-2 items-center xl:w-3/4 xl:px-0 py-[30px] mx-auto justify-items-start"
+        >
+          <div
+            class="relative justify-self-start lg:order-1 order-3 sm:w-[500px] w-[380px] box-border mx-auto"
+          >
+            <img id="mobile"  alt="" class="w-fit" />
+            <div
+              class="border-[#404040]  border-2 w-fit flex py-2 px-3 rounded-md items-center sm:space-x-4 space-x-2 absolute bottom-[7%] bg-black sm:left-[21%] left-[20%]"
+            >
+              <img
+                id="boxshot"
+                alt=""
+                class="sm:w-16 sm:h-20 w-12 h-16"
+              />
+              <div>
+                <p class="sm:text-md text-xs font-semibold">Stranger Things</p>
+                <p class="text-blue-600 text-xs sm:text-sm">Downloading...</p>
+              </div>
+
+              <div class="">
+                <img
+                    id="download"
+                  alt=""
+                  class="w-12 sm:ml-6"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="px-5 order-2 lg:text-left text-center mx-auto lg:py-0 py-5"
+          >
+            <p
+              class="lg:text-[50px] sm:text-[40px] text-[26px] lg:leading-[55px] font-semi bold my-1"
+            >
+              Download your shows to watch offline.
+            </p>
+            <p class="lg:text-[26px] sm:text-[20px] text-[18px] lg:my-6">
+              Save your favorites easily and always have something to watch.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div>
+        <p class="h-2 w-full bg-[#222222]"></p>
+      </div>
+      <!-- watch section -->
+      <section class="bg-[#000000]">
+        <div
+          class="text-white grid lg:grid-cols-2 items-center xl:w-3/4 xl:px-0 sm:px-20 py-[30px] mx-auto"
+        >
+          <div class="mx-auto text-center ">
+            <p
+              class="lg:text-[50px] sm:text-[40px] text-[26px] font-semibold my-1"
+            >
+              Watch everywhere.
+            </p>
+            <p class="lg:text-[26px] sm:text-[20px] my-5 text-[18px]">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+          </div>
+          <div class="relative"></div>
+        </div>
+      </section>
+      <div>
+        <p class="h-2 w-full bg-[#222222]"></p>
+      </div>
+      <!-- profile for kids -->
+      <section class="bg-[#000000]">
+        <div
+          class="text-white grid lg:grid-cols-2 items-center xl:w-3/4 xl:px-0 lg:pr-20 mx-auto xl:py-0 py-5 "
+        >
+    
+          <div class="relative lg:order-1 order-3 mx-auto lg:px-0 px-4">
+            <img id="baby" alt="">
+          </div>
+          <div
+            class="order-2 mx-auto text-center lg:text-left lg:py-0 py-5 px-4 lg:px-4 sm:px-16"
+          >
+            <p
+              class="xl:text-[50px] sm:text-[40px] text-[26px] font-semi bold my-1 leading-[55px]"
+            >
+              Create profiles for kids.
+            </p>
+            <p class="lg:text-[26px] sm:text-[20px] text-[18px] my-5">
+              Send kids on adventures with their favorite characters in a space
+              made just for them— <br />
+              free with your membership.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div>
+        <p class="h-2 w-full bg-[#222222]"></p>
+      </div>
+      <section class="bg-[#000000] py-8 text-white">
+        <div>
+          <p
+            class="lg:text-[50px] sm:text-[40px] text-[26px] mb-16 font-semibold text-center  leading-[55px] my-5"
+          >
+            Frequently Asked Questions
+          </p>
+        </div>
+        <div>
+          <ul class="xl:w-1/2 sm:w-3/4 mx-auto space-y-5">
+            <li class="  rounded-sm bg-[#303030] md:text-[26px]">
+              <button
+                class="faq-question flex w-full justify-between items-center py-5 px-8 pb-5  outline-none  "
+              >
+                What is Netflix?
+                <svg
+                  id="thin-x"
+                  viewBox="0 0 26 26"
+                  class="svg-icon svg-icon-thin-x svg-closed rotate-45 md:w-6 w-4"
+                  focusable="true"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="hidden faq-answer">
+                <hr class="border-gray-600 border-2">
+                <p id="" data-uia="" class="px-8 md:text-[26px] py-3"
+                  >Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.<br /><br />You can
+                  watch as much as you want, whenever you want without a single
+                  commercial – all for one low monthly price. There's always
+                  something new to discover and new TV shows and movies are
+                  added every week!</
+                >
+              </div>
+            </li>
+            <li class="rounded-sm bg-[#303030] md:text-[26px]">
+              <button
+                class="faq-question flex w-full justify-between items-center py-5 pb-5 px-8 outline-none"
+              >
+                How much does Netflix cost?<svg
+                  id="thin-x"
+                  viewBox="0 0 26 26"
+                  class="svg-icon svg-icon-thin-x svg-closed rotate-45 md:w-6 w-4"
+                  focusable="true"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <hr class="border-gray-600 border-2">
+                <p id="" data-uia="" class="px-8 md:text-[26px] py-3"
+                  >Watch Netflix on your smartphone, tablet, Smart TV, laptop,
+                  or streaming device, all for one fixed monthly fee. Plans
+                  range from USD3.99 to USD11.99 a month. No extra costs, no
+                  contracts.</span
+                >
+              </div>
+            </li>
+            <li class="rounded-sm bg-[#303030] md:text-[26px]">
+              <button
+                class="faq-question flex w-full justify-between items-center py-5 px-8 pb-5  outline-none"
+              >
+                Where can I watch?
+                <svg
+                  id="thin-x"
+                  viewBox="0 0 26 26"
+                  class="svg-icon svg-icon-thin-x svg-closed rotate-45 md:w-6 w-4"
+                  focusable="true"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="hidden faq-answer">
+                <hr class="border-gray-600 border-2">
+                <p id="" data-uia="" class="px-8 md:text-[26px] py-3"
+                  >Watch anywhere, anytime. Sign in with your Netflix account to
+                  watch instantly on the web at netflix.com from your personal
+                  computer or on any internet-connected device that offers the
+                  Netflix app, including smart TVs, smartphones, tablets,
+                  streaming media players and game consoles.<br /><br />You can
+                  also download your favorite shows with the iOS, Android, or
+                  Windows 10 app. Use downloads to watch while you're on the go
+                  and without an internet connection. Take Netflix with you
+                  anywhere.</p
+                >
+              </div>
+            </li>
+            <li class="rounded-sm bg-[#303030] md:text-[26px]">
+              <button
+                class="faq-question flex w-full justify-between items-center py-5  pb-5 px-8 outline-none"
+              >
+                How do I cancel?
+                <svg
+                  id="thin-x"
+                  viewBox="0 0 26 26"
+                  class="svg-icon svg-icon-thin-x svg-closed rotate-45 md:w-6 w-4"
+                  focusable="true"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <hr class="border-gray-600 border-2">
+                <p id="" data-uia="" class="px-8 md:text-[26px] py-3"
+                  >Netflix is flexible. There are no pesky contracts and no
+                  commitments. You can easily cancel your account online in two
+                  clicks. There are no cancellation fees – start or stop your
+                  account anytime.</span
+                >
+              </div>
+            </li>
+            <li class="rounded-sm bg-[#303030] md:text-[26px]">
+              <button
+                class="faq-question flex w-full justify-between items-center py-5  pb-5 px-8 outline-none"
+              >
+                What can I watch on Netflix?
+                <svg
+                  id="thin-x"
+                  viewBox="0 0 26 26"
+                  height="24px"
+                  width="24px"
+                  class="svg-icon svg-icon-thin-x svg-closed rotate-45"
+                  focusable="true"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="hidden faq-answer">
+                <hr class="border-gray-600 border-2">
+                <p id="" data-uia="" class="px-8 md:text-[26px] py-3"
+                  >Netflix has an extensive library of feature films,
+                  documentaries, TV shows, anime, award-winning Netflix
+                  originals, and more. Watch as much as you want, anytime you
+                  want.</span
+                >
+              </div>
+            </li>
+            <li class="rounded-sm bg-[#303030] md:text-[26px]">
+              <button
+                class="faq-question flex w-full justify-between items-center py-5 pb-5 px-8 outline-none"
+              >
+                Is Netflix good for kids?<svg
+                  id="thin-x"
+                  viewBox="0 0 26 26"
+                  class="svg-icon svg-icon-thin-x svg-closed rotate-45 md:w-6 w-4"
+                  focusable="true"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="faq-answer hidden">
+                <hr class="border-gray-600 border-2">
+                <p id="" data-uia="" class="px-8 md:text-[26px] py-3"
+                  >The Netflix Kids experience is included in your membership to
+                  give parents control while kids enjoy family-friendly TV shows
+                  and movies in their own space.<br /><br />Kids profiles come
+                  with PIN-protected parental controls that let you restrict the
+                  maturity rating of content kids can watch and block specific
+                  titles you don’t want kids to see.</span
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div>
+        <p class="h-2 w-full bg-[#222222]"></p>
+      </div>
+      </main>
+</body>
+</html>
