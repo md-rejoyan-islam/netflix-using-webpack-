@@ -11,5 +11,6 @@
     }
     .accordionBtn{
         @apply flex w-full justify-between items-center py-5 px-8 pb-5  outline-none 
-    }
+    } 
 }
+
